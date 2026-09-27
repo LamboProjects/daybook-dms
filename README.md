@@ -63,4 +63,4 @@ Next.js 16 · React 19 · TypeScript · Tailwind v4 · Electron 37 · Prisma 7 �
 
 ---
 
-Built by **Lambert Badong** · [GitHub](https://github.com/LamboProjects)
+Built by **Lambert Badong** · [GitHub](https://github.com/LambertBadong)
