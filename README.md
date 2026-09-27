@@ -2,10 +2,10 @@
 
 <h1 align="center">Daybook DMS</h1>
 <p align="center"><b>All-in-one, offline, encrypted daycare management software for Windows.</b><br>
-Built for my family's childcare centre — now licensed to other centres.</p>
+Built for my family's childcare centre — a good fit for small daycares.</p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/status-shipping%20v0.1.7-2ea44f">
+<img src="https://img.shields.io/badge/status-v0.1.7%20·%20for%20small%20daycares-2ea44f">
 <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white">
 <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB">
 <img src="https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white">
@@ -13,13 +13,13 @@ Built for my family's childcare centre — now licensed to other centres.</p>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white">
 </p>
 
-> **Showcase repository.** Daybook is a commercial product; its source code is private. Screenshots below use simulated demo data only.
+> **Showcase repository.** Daybook's source code is private. Screenshots below use simulated demo data only.
 
 ![Dashboard](screenshots/dashboard.png)
 
 ## What it is
 
-Daybook started as the admin system for **Smart Thinkers Childcare Centre** (Vancouver, BC), replacing paper, spreadsheets and disconnected tools. The desktop edition is a Windows app sold to other daycares under annual licences. Children's records, attendance, billing, payroll, BC compliance and parent communication live in one program — with data encrypted on the centre's own PC.
+Daybook started as the admin system for **Smart Thinkers Childcare Centre** (Vancouver, BC), replacing paper, spreadsheets and disconnected tools. The desktop edition is a Windows app suited to other small daycares. Children's records, attendance, billing, payroll, BC compliance and parent communication live in one program — with data encrypted on the centre's own PC.
 
 ## Highlights
 
@@ -27,7 +27,6 @@ Daybook started as the admin system for **Smart Thinkers Childcare Centre** (Van
 - Validated with a **10-year simulation** — 82 children, 26 staff, 73,900+ attendance records, 3,500+ invoices — **33/33 integrity checks passed**
 - **Encryption at rest** + **AES-256-GCM encrypted backups** with a recovery code
 - **BC payroll engine** — bi-weekly periods, overtime, 2026 federal/BC tax, CPP/CPP2/EI, printable pay stubs
-- **Offline signed licensing** — 30-day trial → grace period → read-only; keys issued from an owner-only "License Studio" app
 - One-click installer with **auto-updates**
 
 ## Features
@@ -56,9 +55,6 @@ Daybook started as the admin system for **Smart Thinkers Childcare Centre** (Van
             │
             ▼
  Prisma 7 ──► SQLite (encrypted, local %APPDATA%) ──► AES-256-GCM .daybook backups
-            │
-            ▼
- Offline signed licence verification  ◄── License Studio (owner-only issuer)
 ```
 
 ## Tech
